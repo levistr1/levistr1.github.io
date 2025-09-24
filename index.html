@@ -18,5 +18,18 @@
     This allowed weapons like the bow, sword (at full health), and boomerand to share a singular function for 
     projectile movement, with some modifiers built in to accomodate each weapon's special functions.
 </p>
-<!-- TIP: Rename this file "index.html", and it will become the default landing page whenever someone navigates their browser to your domain. -->
+
+<h4>Room Detection</h4>
+<p>I designed the room detection system, which drops items (like a key for a locked door) only after every 
+    enemy in the room has been cleared. This room detection system also ensures that the weapons are destroyed when
+    they leave the room to prevent them from hitting enemies in other rooms. In addition, there are certain doors that
+    are not opened with a key, but are only opened when every enemy in the room has been cleared. These doors were also 
+    implemented with the room detection system</p>
+
+<h4>Game UI</h4>
+<p>I designed the user interface for the game, which displays the current primary and secondary weapons equipped, as well as
+    any items the player has in their posession. The UI also displays the player's health and any keys they have available to them.
+    The UI sits on a black backdrop to prevent the player from seeing into any rooms they are not currently standing in.
+</p>
+
 </html>
